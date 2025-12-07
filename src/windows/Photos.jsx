@@ -6,7 +6,7 @@ const Photos = () => {
   const renderSidebarList = (items) =>
     items.map((item) => (
       <li key={item.id}>
-        <img src={item.icon} alt={item.title} className="w-4" />
+        <img src={item.icon} alt={item.title} className="w-4 h-4" />
         <p>{item.title}</p>
       </li>
     ));

@@ -121,21 +121,21 @@ const blogPosts = [
         date: "Dec 7, 2025",
         title:
             "Consistency Patterns Explained — Weak, Eventual, and Strong Consistency",
-        image: "/images/blog1.png",
+        image: "/images/network.jpg",
         link: "https://systemdesignwithgyan.blogspot.com/2025/12/consistency-patterns.html",
     },
     {
         id: 2,
         date: "Dec 6, 2025",
         title: "How to Approach System Design (Step-by-Step for Beginners)",
-        image: "/images/blog2.png",
+        image: "/images/network.jpg",
         link: "https://systemdesignwithgyan.blogspot.com/2025/12/how-to-approach-system-design.html",
     },
     {
         id: 3,
         date: "Dec 6, 2025",
         title: "What Is System Design? A Comprehensive Guide for Developers",
-        image: "/images/blog3.png",
+        image: "/images/network.jpg",
         link: "https://systemdesignwithgyan.blogspot.com/2025/12/what-is-system-design.html",
     },
 ];
@@ -228,7 +228,7 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal11.png",
+        img: "/images/gal11.jpg",
     },
     {
         id: 2,
