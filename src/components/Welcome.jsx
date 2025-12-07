@@ -19,14 +19,14 @@ const Welcome = () => {
   return (
     <section id="welcome">
       <p ref={subtitleRef}>
-        {renderText(
+        {/* {renderText(
           "Hey, I'm Gyanendra! Welcome to my portfolio.",
           "text-3xl font-bold font-georama",
           300
-        )}
+        )} */}
       </p>
       <h1 ref={titleRef}>
-        {renderText("Gyanendra Yadav", "text-9xl italic font-georama", 500)}
+        {renderText("Gyanendra Yadav", "text-9xl  font-georama", 500)}
       </h1>
 
       <div className="small-screen">

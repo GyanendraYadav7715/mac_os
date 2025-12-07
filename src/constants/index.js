@@ -118,25 +118,25 @@ const macOSApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
+        date: "Dec 7, 2025",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+            "Consistency Patterns Explained — Weak, Eventual, and Strong Consistency",
         image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        link: "https://systemdesignwithgyan.blogspot.com/2025/12/consistency-patterns.html",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+        date: "Dec 6, 2025",
+        title: "How to Approach System Design (Step-by-Step for Beginners)",
         image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        link: "https://systemdesignwithgyan.blogspot.com/2025/12/how-to-approach-system-design.html",
     },
     {
         id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
+        date: "Dec 6, 2025",
+        title: "What Is System Design? A Comprehensive Guide for Developers",
         image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        link: "https://systemdesignwithgyan.blogspot.com/2025/12/what-is-system-design.html",
     },
 ];
 
@@ -155,15 +155,15 @@ const techStack = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express", "Java", "Spring Boot"],
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["MongoDB", "PostgreSQL"," MySQL"],
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        items: ["Git", "GitHub", "Docker","Postman", "IntelliJ IDEA"],
     },
 ];
 
@@ -173,31 +173,30 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/GyanendraYadav7715",
     },
     {
         id: 2,
         text: "Platform",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://gyanendra-yadav.vercel.app/",
     },
     {
         id: 3,
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://x.com/Gyan09335978",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/gyanendra-yadav-059725253/",
     },
 ];
-
 const photosLinks = [
     {
         id: 1,
@@ -229,19 +228,19 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/gal11.png",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/gal22.jpg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/gal33.jpg",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/gal44.jpg",
     },
 ];
 
