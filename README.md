@@ -1,16 +1,164 @@
-# React + Vite
+# macOS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning interactive portfolio website that replicates the macOS interface, allowing visitors to explore your work through a familiar and engaging desktop environment.
 
-Currently, two official plugins are available:
+![macOS Portfolio](https://img.shields.io/badge/React-18+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Authentic macOS Experience**: Fully interactive desktop interface with dock, menu bar, and window management
+- **Interactive Applications**: 
+  - Finder for exploring projects
+  - Terminal for showcasing skills
+  - Custom apps for portfolio sections
+- **Advanced Window Management**:
+  - Drag and reposition windows
+  - Minimize, maximize, and close animations
+  - Window stacking and focus management
+- **Smooth Animations**: GSAP-powered animations for fluid interactions
+- **Responsive Design**: Tailwind CSS for beautiful, mobile-friendly layouts
+- **State Management**: Zustand for efficient and scalable state handling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** - UI library for building component-based interface
+- **GSAP** - Professional-grade animation library for smooth transitions
+- **Tailwind CSS** - Utility-first CSS framework for rapid styling
+- **Zustand** - Lightweight state management solution
+- **Higher-Order Components (HOC)** - Reusable component logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/macos-portfolio.git
+cd macos-portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open your browser and navigate to `http://localhost:3000`
+
+## 🎨 Project Structure
+
+```
+macos-portfolio/
+├── src/
+│   ├── components/
+│   │   ├── Desktop/
+│   │   ├── Window/
+│   │   ├── Dock/
+│   │   ├── MenuBar/
+│   │   └── Apps/
+│   ├── hoc/
+│   │   └── withWindow.jsx
+│   ├── store/
+│   │   └── useStore.js
+│   ├── animations/
+│   │   └── gsap.js
+│   └── App.jsx
+├── public/
+└── README.md
+```
+
+## 🎯 Key Components
+
+### Window Management
+Each application window supports:
+- Draggable positioning
+- Minimize/Maximize/Close controls
+- Focus management and z-index stacking
+- Smooth open/close animations
+
+### Dock
+- Dynamic app icons
+- Hover animations
+- Launch applications with smooth transitions
+- Active app indicators
+
+### Applications
+- **Finder**: Browse through projects and portfolio items
+- **Terminal**: Display technical skills and commands
+- **Custom Apps**: Add any application to showcase your content
+
+## 🛠️ Customization
+
+### Adding New Applications
+
+1. Create your app component in `src/components/Apps/`
+2. Add the app configuration to your store
+3. Register the app icon in the Dock component
+
+### Modifying Animations
+
+GSAP animations can be customized in `src/animations/gsap.js`. Adjust timing, easing, and effects to match your style.
+
+### Styling
+
+Tailwind classes can be modified throughout the components. Update `tailwind.config.js` for theme customization.
+
+## 🌟 Features Showcase
+
+- **Smooth Dragging**: Windows can be dragged anywhere on the screen
+- **Window Stacking**: Click to bring windows to front with z-index management
+- **Dock Magnification**: Hover effect on dock icons (optional)
+- **App Launching**: Smooth scale and fade animations when opening apps
+- **Minimize Animation**: Windows minimize to dock with GSAP timeline
+- **Responsive Layout**: Adapts beautifully to different screen sizes
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Your Name**
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [Your Name](https://linkedin.com/in/yourname)
+
+## 🙏 Acknowledgments
+
+- Inspired by macOS Big Sur design
+- GSAP for incredible animation capabilities
+- React community for excellent tools and libraries
+
+## 📸 Screenshots
+
+Add screenshots of your project here to showcase the interface!
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star!
+
+**Built with ❤️ using React, GSAP, and Tailwind CSS**
