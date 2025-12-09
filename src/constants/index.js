@@ -266,39 +266,36 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Marriage Saga",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            windowPosition: "top-[5vh] left-10", // optional: Finder window position
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Marriage Saga Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                       " Built on a robust Node.js microservice architecture, the system powers everything—from profile creation and partner recommendations to secure chat and matchmaking algorithms.Every component is designed with high availability, data security, and real- time performance in mind."
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "marriagesaga.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://www.marriagesaga.com/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
-                    icon: "/images/image.png",
+                    name: "marriagesaga.png",
+                    icon: "/images/marriagesaga-logo.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
@@ -319,43 +316,44 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Comprig Intance VM creation",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
-            windowPosition: "top-[20vh] left-7",
+            windowPosition: "top-[18vh] left-3",
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Comprig Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
-                    ],
+                        "Comprig Instance VM Creation is a powerful cloud platform that allows users to spin up high-performance virtual machines in seconds.",
+                        "Instead of relying only on local hardware, users can offload heavy tasks to the cloud with dynamic CPU, GPU, RAM, and storage allocation.",
+                        "It provides a complete lifecycle system—create, start, stop, monitor, and delete VMs with real-time status updates and resource analytics.",
+                        "Built with a modern stack of Node.js, Next.js, Docker, and cloud orchestration, it delivers a fast, scalable, and production-grade experience."
+                    ]
+
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "comprig.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://comprig.com/",
                     position: "top-20 left-20",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "comprig.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "/images/cloudshift.png",
                 },
                 {
                     id: 5,
@@ -372,43 +370,40 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Greencart",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
-            windowPosition: "top-[33vh] left-7",
+            windowPosition: "top-[33vh] left-13",
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Greencart.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "This project is a modern E-commerce Grocery Web Application designed to make online grocery shopping seamless for customers and easy to manage for administrators. Customers can browse products, add items to their cart, place orders, and track them in real-time. On the other side, admins can manage product inventory, monitor orders, and update stock efficiently.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "greencart.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://greencart-frontend-pearl.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "greencart.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    imageUrl: "/icons/greencart.svg",
                 },
                 {
                     id: 5,
@@ -438,7 +433,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/gyan.jpeg",
         },
         {
             id: 2,
@@ -447,7 +442,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/image1.jpg",
         },
         {
             id: 3,
@@ -456,7 +451,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/image2.jpg",
         },
         {
             id: 4,
@@ -466,13 +461,14 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/image3.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
-            ],
+                "Hey! I’m Gyanendra Yadav 👋, a software developer focused on building clean, fast, and scalable applications.",
+                "I work with JavaScript, React, Java,SpringBoot and backend system design—always aiming for production-grade quality.",
+                "I care about sharp UI, smooth UX, and writing code that’s simple, predictable, and easy to maintain.",
+                "When I’m not deep into LeetCode or system design, you’ll find me refining projects, learning something new, or planning my path to FAANG-level engineering 🚀"
+            ]
+
         },
     ],
 };

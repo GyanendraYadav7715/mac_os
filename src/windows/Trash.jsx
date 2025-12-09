@@ -1,10 +1,18 @@
 import WindowWrapper from "@hoc/WindowWraper";
 import { WindowControlls } from "@components";
 import { locations } from "@constants";
+import useWindowStore from "@store/window";
 
 const Trash = () => {
   const trashItems = locations.trash.children || [];
+    const { openWindow } = useWindowStore();
 
+  const openItem = (item) => {
+  // Handle other file types with custom windows
+  if (item.fileType && item.kind) {
+    return openWindow(`${item.fileType}${item.kind}`, item);
+  }
+};
   return (
     <>
       <div id="window-header">
@@ -17,7 +25,7 @@ const Trash = () => {
         ) : (
           <ul>
             {trashItems.map((item) => (
-              <li key={item.id}>
+              <li key={item.id} onClick={() => openItem(item)}>
                 <img src={item.icon} alt={item.name} />
                 <span>{item.name}</span>
               </li>
