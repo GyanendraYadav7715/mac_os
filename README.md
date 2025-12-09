@@ -2,7 +2,7 @@
 
 A stunning interactive portfolio website that replicates the macOS interface, allowing visitors to explore your work through a familiar and engaging desktop environment.
 
-![macOS Portfolio](https://gyanendra-yadav.vercel.app/work)
+![macOS Portfolio](./public/screenshots/desktop.png)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## ✨ Features
