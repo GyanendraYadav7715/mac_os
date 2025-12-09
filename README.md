@@ -2,7 +2,7 @@
 
 A stunning interactive portfolio website that replicates the macOS interface, allowing visitors to explore your work through a familiar and engaging desktop environment.
 
-![macOS Portfolio](https://img.shields.io/badge/React-18+-blue.svg)
+![macOS Portfolio](https://gyanendra-yadav.vercel.app/work)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## ✨ Features
@@ -56,22 +56,50 @@ yarn dev
 
 ```
 macos-portfolio/
+├── public/
 ├── src/
 │   ├── components/
-│   │   ├── Desktop/
-│   │   ├── Window/
-│   │   ├── Dock/
-│   │   ├── MenuBar/
-│   │   └── Apps/
+│   │   ├── Dock.jsx
+│   │   ├── Home.jsx
+│   │   ├── index.js 
+│   │   ├── Navbar.jsx
+│   │   ├── Welcome.jsx
+│   │   └── WindowControlls.jsx
+│   ├── constant/
+│   │   └── index.js
 │   ├── hoc/
-│   │   └── withWindow.jsx
+│   │   └── WindowWrapper.jsx
+│   ├── hooks/
+│   │   ├── useCurrentTime.js
+│   │   ├── useDockAnimation.js
+│   │   ├── useFInder.jsx
+│   │   └── useTextHover.js
 │   ├── store/
-│   │   └── useStore.js
-│   ├── animations/
-│   │   └── gsap.js
+│   │   ├── location.js
+│   │   └── window.js
+│   ├── windows/
+│   │   ├── App.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Finder.jsx 
+│   │   ├── Image.jsx
+│   │   ├── index.js
+│   │   └── Photos.jsx
+│   │   ├── Resume.jsx
+│   │   ├── Safari.jsx 
+│   │   ├── Terminal.jsx
+│   │   ├── Text.jsx
+│   │   └── Trash.jsx
 │   └── App.jsx
-├── public/
+│   └── index.css
+│   └── main.jsx
+└── .gitignore
+└── eslint.config.js
+└── index.html
+└── jsconfig.json
+└── package-lock.json
+└── package.json   
 └── README.md
+└──vite.config.js
 ```
 
 ## 🎯 Key Components
@@ -142,10 +170,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourname)
+**Gyanendra Yadav**
+- Portfolio: [gyanendra-yadav.vercel.com](https://gyanendra-yadav.vercel.app/work)
+- GitHub: [GyanendraYadav7715](https://github.com/GyanendraYadav7715)
+- LinkedIn: [Gyanendra Yadav](https://www.linkedin.com/in/gyanendra-yadav-059725253/)
 
 ## 🙏 Acknowledgments
 
@@ -156,6 +184,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📸 Screenshots
 
 Add screenshots of your project here to showcase the interface!
+
+![Desktop View](./public/screenshots/desktop.png)
+![Finder View](./public/screenshots/finder.png)
+![Safari View](./public/screenshots/safari.png)
+![Photos View](./public/screenshots/photo.png)
+![Contact View](./public/screenshots/contact.png)
+![Terminal View](./public/screenshots/terminal.png)
+![Trash View](./public/screenshots/trash.png)
+![App View](./public/screenshots/allapp.png)
+![App View](./public/screenshots/allapp2.png)
+
 
 ---
 
